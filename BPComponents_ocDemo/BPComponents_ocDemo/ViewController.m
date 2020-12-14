@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <BPComponents_oc/BPComponents_oc.h>
 
 @interface ViewController ()
 
@@ -14,8 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [super viewDidLoad];    
 }
 
 

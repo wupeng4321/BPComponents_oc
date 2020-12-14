@@ -17,9 +17,9 @@
     "git": "https://github.com/wupeng4321/BPComponents_oc.git",
     "tag": "0.0.1"
   },
-  "source_files": "BPComponents_oc/**/*.{h,m}",
+  "source_files": "BPComponents_oc/BPComponents_oc/**/*.{h,m}",
   "exclude_files": "BPComponents_oc/BPComponents_oc/info.plist",
-  "public_header_files": "BPComponents_oc/BPComponents_oc/BPComponents_oc.h",
+  "public_header_files": "BPComponents_oc/BPComponents_oc/**/*.h",
   "requires_arc": true,
   "dependencies": {
     "Masonry": [

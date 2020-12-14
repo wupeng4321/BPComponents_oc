@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BPComponents_oc: d7541ccb8a6c5b90824dbc80ba2138059159542f
+  BPComponents_oc: 84cc5a8bf7b7f3b577bddfff05debc13be098cc5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 7109f9cf3bcecce85b8b0b2790cadc36717296fe

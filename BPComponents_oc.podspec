@@ -90,11 +90,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BPComponents_oc/**/*.{h,m}"
+  s.source_files  = "BPComponents_oc/BPComponents_oc/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
   s.exclude_files = 'BPComponents_oc/BPComponents_oc/info.plist'
 
-  s.public_header_files = "BPComponents_oc/BPComponents_oc/BPComponents_oc.h"
+  s.public_header_files = "BPComponents_oc/BPComponents_oc/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
