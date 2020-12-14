@@ -1,0 +1,57 @@
+{
+  "name": "BPComponents_oc",
+  "version": "0.0.1",
+  "summary": "BPComponents_oc.",
+  "homepage": "https://github.com/wupeng4321/BPComponents_oc.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wupeng4321": "wupeng_4321@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/wupeng4321/BPComponents_oc.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "BPComponents_oc/**/*.{h,m}",
+  "exclude_files": "BPComponents_oc/BPComponents_oc/info.plist",
+  "public_header_files": "BPComponents_oc/BPComponents_oc/BPComponents_oc.h",
+  "requires_arc": true,
+  "default_subspecs": [
+    "ViewControllers",
+    "Category"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "ViewControllers",
+      "source_files": [
+        "BPComponents_oc/BPComponents_oc/ViewControllers/**/*.{h,m}",
+        "BPComponents_oc/BPComponents_oc/BPComponents_oc.h"
+      ],
+      "public_header_files": [
+        "BPComponents_oc/BPComponents_oc/ViewControllers/**/*.h",
+        "BPComponents_oc/BPComponents_oc/BPComponents_oc.h"
+      ]
+    },
+    {
+      "name": "Category",
+      "source_files": [
+        "BPComponents_oc/BPComponents_oc/Category/**/*.{h,m}",
+        "BPComponents_oc/BPComponents_oc/BPComponents_oc.h"
+      ],
+      "public_header_files": [
+        "BPComponents_oc/BPComponents_oc/Category/**/*.h",
+        "BPComponents_oc/BPComponents_oc/BPComponents_oc.h"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+PODS:
+  - BPComponents_oc (0.0.1):
+    - BPComponents_oc/Category (= 0.0.1)
+    - BPComponents_oc/ViewControllers (= 0.0.1)
+    - Masonry
+  - BPComponents_oc/Category (0.0.1):
+    - Masonry
+  - BPComponents_oc/ViewControllers (0.0.1):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BPComponents_oc (from `../`)
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  BPComponents_oc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BPComponents_oc: 4ca3ed96c4204d267b120095040090c37b106583
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: e14c2e956dfbe46caf93b3f0d015de41db59977a
+
+COCOAPODS: 1.9.3
