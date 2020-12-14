@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios ,'8.0'
+  s.platform     = :ios ,'9.0'
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -132,19 +132,19 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   
-  s.default_subspec = 'ViewControllers', 'Category'
-  
-  
-  s.subspec "ViewControllers" do |ss|
-       ss.source_files = 'BPComponents_oc/BPComponents_oc/ViewControllers/**/*.{h,m}','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
-       ss.public_header_files = 'BPComponents_oc/BPComponents_oc/ViewControllers/**/*.h','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
-  end
-
-
-  s.subspec "Category" do |ss|
-       ss.source_files = 'BPComponents_oc/BPComponents_oc/Category/**/*.{h,m}','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
-       ss.public_header_files = 'BPComponents_oc/BPComponents_oc/Category/**/*.h','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
-  end
+#  s.default_subspec = 'ViewControllers', 'Category'
+#
+#
+#  s.subspec "ViewControllers" do |ss|
+#       ss.source_files = 'BPComponents_oc/BPComponents_oc/ViewControllers/**/*.{h,m}','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
+#       ss.public_header_files = 'BPComponents_oc/BPComponents_oc/ViewControllers/**/*.h','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
+#  end
+#
+#
+#  s.subspec "Category" do |ss|
+#       ss.source_files = 'BPComponents_oc/BPComponents_oc/Category/**/*.{h,m}','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
+#       ss.public_header_files = 'BPComponents_oc/BPComponents_oc/Category/**/*.h','BPComponents_oc/BPComponents_oc/BPComponents_oc.h'
+#  end
 
   
 

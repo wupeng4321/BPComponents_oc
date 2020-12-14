@@ -1,11 +1,5 @@
 PODS:
   - BPComponents_oc (0.0.1):
-    - BPComponents_oc/Category (= 0.0.1)
-    - BPComponents_oc/ViewControllers (= 0.0.1)
-    - Masonry
-  - BPComponents_oc/Category (0.0.1):
-    - Masonry
-  - BPComponents_oc/ViewControllers (0.0.1):
     - Masonry
   - Masonry (1.1.0)
 
@@ -22,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BPComponents_oc: 4ca3ed96c4204d267b120095040090c37b106583
+  BPComponents_oc: d7541ccb8a6c5b90824dbc80ba2138059159542f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: e14c2e956dfbe46caf93b3f0d015de41db59977a
+PODFILE CHECKSUM: 7109f9cf3bcecce85b8b0b2790cadc36717296fe
 
 COCOAPODS: 1.9.3
