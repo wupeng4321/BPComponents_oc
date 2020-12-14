@@ -1,1 +1,1 @@
-../../../../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPAnimation.h
+../../../../../BPComponents_oc/BPComponents_oc/BPCategory/UIKit/UIView+BPAnimation.h

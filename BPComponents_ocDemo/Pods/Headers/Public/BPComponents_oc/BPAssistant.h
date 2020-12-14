@@ -1,1 +1,1 @@
-../../../../../BPComponents_oc/BPComponents_oc/Category/Foundation/BPAssistant.h
+../../../../../BPComponents_oc/BPComponents_oc/BPCategory/Foundation/BPAssistant.h

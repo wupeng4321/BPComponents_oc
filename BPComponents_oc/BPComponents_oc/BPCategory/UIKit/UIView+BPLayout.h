@@ -154,7 +154,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 增加圆角
 /// @param length length
-- (void)bp_addTopLeftRoundingCornerWithLength:(CGFloat)length DEPRECATED_MSG_ATTRIBUTE("Use bp_addRoundingCorners:withRadii: instead, will be deleted on 20191117");
+
+
+/// 增加圆角
+/// @param corners corners
+/// @param radii radii
 - (void)bp_addRoundingCorners:(UIRectCorner)corners withRadii:(CGFloat)radii;
 
 
@@ -165,22 +169,5 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIResponder *)bp_responder:(Class)class;
 
 @end
-
-
-//@interface NSArray (UISports)
-//
-///**
-// 将数组里面的所有view整体垂直居中
-//
-// @param centerY 中心点偏移量
-// */
-//- (void)bp_setCenterY:(CGFloat)centerY;
-//
-//@end
-//
-//
-//@interface UIView (SportsAnimation)
-//
-//@end
 
 NS_ASSUME_NONNULL_END

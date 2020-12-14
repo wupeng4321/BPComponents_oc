@@ -1,1 +1,1 @@
-../../../../../BPComponents_oc/BPComponents_oc/Category/Foundation/NSDictionary+BPExceptionProtection.h
+../../../../../BPComponents_oc/BPComponents_oc/BPCategory/Foundation/NSDictionary+BPExceptionProtection.h

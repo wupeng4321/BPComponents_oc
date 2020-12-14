@@ -1,1 +1,1 @@
-../../../../../BPComponents_oc/BPComponents_oc/Category/UIKit/BPUIAssistant.h
+../../../../../BPComponents_oc/BPComponents_oc/BPHelper/BPUIAssistant.h
