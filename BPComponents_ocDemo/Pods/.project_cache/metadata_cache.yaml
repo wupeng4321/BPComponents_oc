@@ -1,0 +1,16 @@
+BPComponents_oc:
+  LABEL: BPComponents_oc
+  PROJECT_PATH: BPComponents_oc.xcodeproj
+  UUID: D0BCE9EF076F7C540C0C3BE93E587655
+Masonry:
+  LABEL: Masonry
+  PROJECT_PATH: Masonry.xcodeproj
+  UUID: C0965FF775F51458AD4A8E41ABAB7D1E
+Pods-BPComponents_oc:
+  LABEL: Pods-BPComponents_oc
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 4E1D064C27A978A13D8A5EF7DBE53692
+Pods-BPComponents_ocDemo:
+  LABEL: Pods-BPComponents_ocDemo
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 800A565670DF7C1E42757D52E023FFFE

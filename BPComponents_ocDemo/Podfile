@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+#install! 'cocoapods', :preserve_pod_file_structure => true
+
+install! 'cocoapods',
+generate_multiple_pod_projects:true,
+incremental_installation:true
+platform :ios, '9.0'
+
+workspace 'BPComponents_ocDemo.xcworkspace'
+
+target 'BPComponents_ocDemo' do
+  project 'BPComponents_ocDemo.xcodeproj'
+	pod 'BPComponents_oc', :path => '../'
+
+end
+
+target 'BPComponents_oc' do
+
+project '../BPComponents_oc/BPComponents_oc.xcodeproj'
+end

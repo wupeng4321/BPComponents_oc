@@ -1,0 +1,62 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  BPComponents_oc:
+    BUILD_SETTINGS_CHECKSUM:
+      BPComponents_oc:
+        :debug: 689813a41a1c226b0539a09bf51620af
+        :release: 689813a41a1c226b0539a09bf51620af
+    CHECKSUM: d7541ccb8a6c5b90824dbc80ba2138059159542f
+    FILES:
+      - "../../BPComponents_oc/BPComponents_oc/BPComponents_oc.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Foundation/BPAssistant.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Foundation/BPAssistant.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Foundation/NSArray+BPExceptionProtection.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Foundation/NSArray+BPExceptionProtection.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Foundation/NSDictionary+BPExceptionProtection.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Foundation/NSDictionary+BPExceptionProtection.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Theme/Theme.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/Theme/Theme.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/BPUIAssistant.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/BPUIAssistant.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/CALayer+BP.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/CALayer+BP.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPAnimation.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPAnimation.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPLayout.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPLayout.m"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPLine.h"
+      - "../../BPComponents_oc/BPComponents_oc/Category/UIKit/UIView+BPLine.m"
+      - "../../BPComponents_oc/BPComponents_oc/ViewControllers/AllocDeallocViewController.h"
+      - "../../BPComponents_oc/BPComponents_oc/ViewControllers/AllocDeallocViewController.m"
+      - "../../BPComponents_oc/BPComponents_oc/ViewControllers/BPTabBarViewController.h"
+      - "../../BPComponents_oc/BPComponents_oc/ViewControllers/BPTabBarViewController.m"
+      - "../../BPComponents_oc/BPComponents_oc/ViewControllers/BPUINavigationController.h"
+      - "../../BPComponents_oc/BPComponents_oc/ViewControllers/BPUINavigationController.m"
+      - "../../LICENSE"
+      - "../../README.md"
+    PROJECT_NAME: BPComponents_oc
+    SPECS:
+      - BPComponents_oc (0.0.1)
+  Masonry:
+    BUILD_SETTINGS_CHECKSUM:
+      Masonry:
+        :debug: 0a08dd76e1df2c77abb62870860d541b
+        :release: 0a08dd76e1df2c77abb62870860d541b
+    CHECKSUM: 678fab65091a9290e40e2832a55e7ab731aad201
+    PROJECT_NAME: Masonry
+    SPECS:
+      - Masonry (1.1.0)
+  Pods-BPComponents_oc:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 99ee9cb4bbcc8cde8a651cdd28837e2c
+      Release: 99ee9cb4bbcc8cde8a651cdd28837e2c
+  Pods-BPComponents_ocDemo:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 6029a6696509f42f157a0a2584de3c88
+      Release: 6029a6696509f42f157a0a2584de3c88
+OBJECT_VERSION: 50
+PLUGINS:
+  cocoapods-stats:
+    {}
