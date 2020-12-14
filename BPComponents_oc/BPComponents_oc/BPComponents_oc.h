@@ -19,3 +19,14 @@ FOUNDATION_EXPORT const unsigned char BPComponents_ocVersionString[];
 #import <BPComponents_oc/BPTabBarViewController.h>
 #import <BPComponents_oc/BPUINavigationController.h>
 
+#import <BPComponents_oc/Theme.h>
+#import <BPComponents_oc/BPUIAssistant.h>
+#import <BPComponents_oc/CALayer+BP.h>
+#import <BPComponents_oc/UIView+BPAnimation.h>
+#import <BPComponents_oc/UIView+BPLayout.h>
+#import <BPComponents_oc/UIView+BPLine.h>
+
+#import <BPComponents_oc/BPAssistant.h>
+#import <BPComponents_oc/NSArray+BPExceptionProtection.h>
+#import <BPComponents_oc/NSDictionary+BPExceptionProtection.h>
+

@@ -15,7 +15,10 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];    
+    [super viewDidLoad];
+    NSArray *arr = @[@1, @2];
+    NSNumber *a = arr[1];
+    NSLog(@"%@", a);
 }
 
 
