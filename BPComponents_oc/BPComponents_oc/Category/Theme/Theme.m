@@ -103,20 +103,20 @@
 
 
 /// system color
-+ (UIColor *)colorBlack              {return self.colorWithHexInteger(0x000000);}
-+ (UIColor *)colorDarkGray           {return self.colorWithHexInteger(0x555555);}
-+ (UIColor *)colorLightGray          {return self.colorWithHexInteger(0xaaaaaa);}
-+ (UIColor *)colorWhite              {return self.colorWithHexInteger(0xffffff);}
-+ (UIColor *)colorGray               {return self.colorWithHexInteger(0x7f7f7f);}
-+ (UIColor *)colorRed                {return self.colorWithHexInteger(0xff0000);}
-+ (UIColor *)colorGreen              {return self.colorWithHexInteger(0x00ff00);}
-+ (UIColor *)colorBlue               {return self.colorWithHexInteger(0x0000ff);}
-+ (UIColor *)colorCyan               {return self.colorWithHexInteger(0x00ffff);}
-+ (UIColor *)colorYellow             {return self.colorWithHexInteger(0xffff00);}
-+ (UIColor *)colorMagenta            {return self.colorWithHexInteger(0xff00ff);}
-+ (UIColor *)colorOrange             {return self.colorWithHexInteger(0xff7f00);}
-+ (UIColor *)colorPurple             {return self.colorWithHexInteger(0x7f007f);}
-+ (UIColor *)colorBrown              {return self.colorWithHexInteger(0x996633);}
++ (UIColor *)colorBlack              {return self.colorWithHexInteger(kColorBlack);}
++ (UIColor *)colorDarkGray           {return self.colorWithHexInteger(kColorDarkGray);}
++ (UIColor *)colorLightGray          {return self.colorWithHexInteger(kColorLightGray);}
++ (UIColor *)colorWhite              {return self.colorWithHexInteger(kColorWhite);}
++ (UIColor *)colorGray               {return self.colorWithHexInteger(kColorGray);}
++ (UIColor *)colorRed                {return self.colorWithHexInteger(kColorRed);}
++ (UIColor *)colorGreen              {return self.colorWithHexInteger(kColorGreen);}
++ (UIColor *)colorBlue               {return self.colorWithHexInteger(kColorBlue);}
++ (UIColor *)colorCyan               {return self.colorWithHexInteger(kColorCyan);}
++ (UIColor *)colorYellow             {return self.colorWithHexInteger(kColorYellow);}
++ (UIColor *)colorMagenta            {return self.colorWithHexInteger(kColorMagenta);}
++ (UIColor *)colorOrange             {return self.colorWithHexInteger(kColorOrange);}
++ (UIColor *)colorPurple             {return self.colorWithHexInteger(kColorPurple);}
++ (UIColor *)colorBrown              {return self.colorWithHexInteger(kColorBrown);}
 + (UIColor *)colorClear              {return self.colorWithHexIntegerAndAlpha(0x000000, 0);}
 
 
