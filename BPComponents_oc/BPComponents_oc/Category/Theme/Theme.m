@@ -25,7 +25,7 @@
 //常用灰色
 #define kColorBlack                       0x000000
 #define kColorGrayDark                    0x333333 //用于一级文字信息(如商品名称 功能列表入口)
-#define kColorGray                        0x666666 //用于二级文字信息(如数据名称 品牌列表标题)
+//#define kColorGray                        0x666666 //用于二级文字信息(如数据名称 品牌列表标题)
 #define kColorGrayLight                   0x787878 //用于说明文字信息(如输入提示 列表时间信息)
 #define kColorGrayDim                     0x999999 //用于辅助文字信息(如异常文字提示 置灰样式)
 #define kColorGrayDarkLight               0xcccccc //用于修改不可用Label的字体颜色
@@ -37,11 +37,11 @@
 #define kColorWhite                       0xffffff
 
 
-#define kColorOrange                      0xff6600 //图表 提示颜色
+//#define kColorOrange                      0xff6600 //图表 提示颜色
 #define kColorPink                        0xffc8a5 //完成率图标颜色
 #define kColorProgress                    0xf7ac0a //任务栏进度颜色
 #define kColorOrangePrice                 kColorOrange //用于价格数据消息 (如数据金额显示 提示文字信息 会员状态)
-#define kColorRed                         0xff4c4c //用于价格 异常报错消息 (如商品价格 退出文字 删除按钮)
+//#define kColorRed                         0xff4c4c //用于价格 异常报错消息 (如商品价格 退出文字 删除按钮)
 #define kColorYellowLight                 0xfff7cc //用于通知的背景颜色
 #define kColorRedLight                    0xffe3e6 //用于浅红色的背景颜色一般用于error页面
 #define kColorPartLightPink               0xfde0cc //用于日历选择区域背景色展示
@@ -52,6 +52,24 @@
 #define kColorText                        kColorGrayDark
 #define kColorTextDetail                  kColorGrayDim
 
+
+/// system color
+#define kColorBlack                         0x000000
+#define kColorDarkGray                      0x555555 /// 0.333 white
+#define kColorLightGray                     0xaaaaaa /// 0.667 white
+#define kColorWhite                         0xffffff /// 1.0 white
+#define kColorGray                          0x7f7f7f /// 0.5 white
+#define kColorRed                           0xff0000 /// 1.0, 0.0, 0.0 RGB
+#define kColorGreen                         0x00ff00 /// 0.0, 1.0, 0.0 RGB
+#define kColorBlue                          0x0000ff /// 0.0, 0.0, 1.0 RGB
+#define kColorCyan                          0x00ffff /// 0.0, 1.0, 1.0 RGB
+#define kColorYellow                        0xffff00 /// 1.0, 1.0, 0.0 RGB
+#define kColorMagenta                       0xff00ff /// 1.0, 0.0, 1.0 RGB
+#define kColorOrange                        0xff7f00 /// 1.0, 0.5, 0.0 RGB
+#define kColorPurple                        0x7f007f /// 0.5, 0.0, 0.5 RGB
+#define kColorBrown                         0x996633 /// 0.6, 0.4, 0.2 RGB
+
+
 @implementation Theme
 
 + (UIColor *)colorTheme              {return self.colorWithHexInteger(kColorTheme);}
@@ -60,9 +78,7 @@
 + (UIColor *)colorThemeTextLight     {return self.colorWithHexInteger(kColorThemeTextLight);}
 + (UIColor *)colorThemeLightDis      {return self.colorWithHexInteger(kColorThemeLightDis);}
 
-+ (UIColor *)colorBlack              {return self.colorWithHexInteger(kColorBlack);}
 + (UIColor *)colorGrayDark           {return self.colorWithHexInteger(kColorGrayDark);}
-+ (UIColor *)colorGray               {return self.colorWithHexInteger(kColorGray);}
 + (UIColor *)colorGrayLight          {return self.colorWithHexInteger(kColorGrayLight);}
 + (UIColor *)colorGrayDim            {return self.colorWithHexInteger(kColorGrayDim);}
 + (UIColor *)colorText               {return self.colorWithHexInteger(kColorText);}
@@ -73,19 +89,35 @@
 + (UIColor *)colorSeparatorLine      {return self.colorWithHexInteger(kColorSeparatorLine);}
 + (UIColor *)colorSeparatorLineLight {return self.colorWithHexInteger(kColorSeparatorLineLight);}
 + (UIColor *)colorGrayDarkLight      {return self.colorWithHexInteger(kColorGrayDarkLight);}
-+ (UIColor *)colorWhite              {return self.colorWithHexInteger(kColorWhite);}
 
-+ (UIColor *)colorOrange             {return self.colorWithHexInteger(kColorOrange);}
+
 + (UIColor *)colorPink               {return self.colorWithHexInteger(kColorPink);}
 + (UIColor *)colorProgress           {return self.colorWithHexInteger(kColorProgress);}
 + (UIColor *)colorOrangePrice        {return self.colorWithHexInteger(kColorOrangePrice);}
-+ (UIColor *)colorRed                {return self.colorWithHexInteger(kColorRed);}
 + (UIColor *)colorYellowLight        {return self.colorWithHexInteger(kColorYellowLight);}
 + (UIColor *)colorRedLight           {return self.colorWithHexInteger(kColorRedLight);}
 + (UIColor *)colorPinkPartLight      {return self.colorWithHexInteger(kColorPartLightPink);}
 + (UIColor *)colorGreenLight         {return self.colorWithHexInteger(kColorGreenLight);}
 + (UIColor *)colorProcessTint        {return self.colorWithHexInteger(kColorProcessTint);}
 + (UIColor *)colorProcessBackground  {return self.colorWithHexInteger(kColorProcessBackground);}
+
+
+/// system color
++ (UIColor *)colorBlack              {return self.colorWithHexInteger(0x000000);}
++ (UIColor *)colorDarkGray           {return self.colorWithHexInteger(0x555555);}
++ (UIColor *)colorLightGray          {return self.colorWithHexInteger(0xaaaaaa);}
++ (UIColor *)colorWhite              {return self.colorWithHexInteger(0xffffff);}
++ (UIColor *)colorGray               {return self.colorWithHexInteger(0x7f7f7f);}
++ (UIColor *)colorRed                {return self.colorWithHexInteger(0xff0000);}
++ (UIColor *)colorGreen              {return self.colorWithHexInteger(0x00ff00);}
++ (UIColor *)colorBlue               {return self.colorWithHexInteger(0x0000ff);}
++ (UIColor *)colorCyan               {return self.colorWithHexInteger(0x00ffff);}
++ (UIColor *)colorYellow             {return self.colorWithHexInteger(0xffff00);}
++ (UIColor *)colorMagenta            {return self.colorWithHexInteger(0xff00ff);}
++ (UIColor *)colorOrange             {return self.colorWithHexInteger(0xff7f00);}
++ (UIColor *)colorPurple             {return self.colorWithHexInteger(0x7f007f);}
++ (UIColor *)colorBrown              {return self.colorWithHexInteger(0x996633);}
++ (UIColor *)colorClear              {return self.colorWithHexIntegerAndAlpha(0x000000, 0);}
 
 
 + (UIFont *)font01 {return [self fontWithSize:1];}

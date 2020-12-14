@@ -49,14 +49,32 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /***************************************
+********************系统颜色**************
+****************************************/
+@property (nonatomic, strong, class, readonly) UIColor *colorBlack;
+@property (nonatomic, strong, class, readonly) UIColor *colorDarkGray;
+@property (nonatomic, strong, class, readonly) UIColor *colorLightGray;
+@property (nonatomic, strong, class, readonly) UIColor *colorWhite;
+@property (nonatomic, strong, class, readonly) UIColor *colorGray;
+@property (nonatomic, strong, class, readonly) UIColor *colorRed;
+@property (nonatomic, strong, class, readonly) UIColor *colorGreen;
+@property (nonatomic, strong, class, readonly) UIColor *colorBlue;
+@property (nonatomic, strong, class, readonly) UIColor *colorCyan;
+@property (nonatomic, strong, class, readonly) UIColor *colorYellow;
+@property (nonatomic, strong, class, readonly) UIColor *colorMagenta;
+@property (nonatomic, strong, class, readonly) UIColor *colorOrange;
+@property (nonatomic, strong, class, readonly) UIColor *colorPurple;
+@property (nonatomic, strong, class, readonly) UIColor *colorBrown;
+@property (nonatomic, strong, class, readonly) UIColor *colorClear;
+
+
+/***************************************
 ********************常用灰色**************
 ****************************************/
-///黑色
-@property (nonatomic, strong, class, readonly) UIColor *colorBlack;
 ///用于一级文字信息(如商品名称 功能列表入口) 0x333333
 @property (nonatomic, strong, class, readonly) UIColor *colorGrayDark;
 ///用于二级文字信息(如数据名称 品牌列表标题) 0x666666
-@property (nonatomic, strong, class, readonly) UIColor *colorGray;
+//@property (nonatomic, strong, class, readonly) UIColor *colorGray;
 ///用于说明文字信息(如输入提示 列表时间信息) 0x787878
 @property (nonatomic, strong, class, readonly) UIColor *colorGrayLight;
 ///用于辅助文字信息(如异常文字提示 置灰样式) 0x999999
@@ -77,15 +95,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, class, readonly) UIColor *colorSeparatorLineLight;
 ///用于辅助Label不可用字体颜色 0xcccccc
 @property (nonatomic, strong, class, readonly) UIColor *colorGrayDarkLight;
-///白色
-@property (nonatomic, strong, class, readonly) UIColor *colorWhite;
 
 
 /***************************************
 ********************其它颜色**************
 ****************************************/
 ///图表 提示颜色 0xff6600
-@property (nonatomic, strong, class, readonly) UIColor *colorOrange;
+//@property (nonatomic, strong, class, readonly) UIColor *colorOrange;
 ///完成率图标颜色 0xffc8a5
 @property (nonatomic, strong, class, readonly) UIColor *colorPink;
 ///任务栏进度颜色 0xf7ac0a
@@ -93,7 +109,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///用于价格数据消息 (如数据金额显示 提示文字信息 会员状态) 0xff6600
 @property (nonatomic, strong, class, readonly) UIColor *colorOrangePrice;
 ///用于价格 异常报错消息 (如商品价格 退出文字 删除按钮) 0xff4c4c
-@property (nonatomic, strong, class, readonly) UIColor *colorRed;
+//@property (nonatomic, strong, class, readonly) UIColor *colorRed;
 ///用于通知的背景颜色 0x0xfff7cc
 @property (nonatomic, strong, class, readonly) UIColor *colorYellowLight;
 ///0xffe3e6用于浅红色的背景颜色一般用于error页面
